@@ -1,0 +1,5 @@
+## Append samples of your project ##
+resources:
+- scale_v1_scaledeployment.yaml
+- deployment_nginx.yaml
+# +kubebuilder:scaffold:manifestskustomizesamples

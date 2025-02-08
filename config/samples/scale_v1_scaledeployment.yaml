@@ -1,0 +1,11 @@
+apiVersion: scale.madrid.operator.com/v1
+kind: ScaleDeployment
+metadata:
+  labels:
+    app.kubernetes.io/name: lab-k8s-operator-sdk
+    app.kubernetes.io/managed-by: kustomize
+  name: scaledeployment-sample
+  namespace: default
+spec:
+  deploymentName: nginx
+  replicas: 3
